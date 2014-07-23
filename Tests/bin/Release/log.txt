@@ -1,0 +1,1901 @@
+Robot 2 - System.Exception: Robot was not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 3 - System.Exception: Robot was not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 4 - System.Exception: Robot was not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 2 - System.Exception: Robot was not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 3 - System.Exception: Robot was not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 4 - System.Exception: Robot was not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 89
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 47
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 57
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+Robot 2 - System.Exception: Robot not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 3 - System.Exception: Robot not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+Robot 4 - System.Exception: Robot not deployed: Coordinates are out of bounds or collide with a previously activated robot.
+
+   at CortexBots.Mission.deploy(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 132
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coordinates are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coordinates are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coordinates are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 85
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 107
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 66
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 85
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 107
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 66
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 131
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 117.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 85
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 107
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 66
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 95
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 129
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 115.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 74
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 63
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 96
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 83
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 74
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 105
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 64
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 63
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 122
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 89
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 47
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 57
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 122
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 89
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 47
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 57
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 122
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 89
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 47
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 57
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 122
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 89
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 47
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 57
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 122
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 108.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 89
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 76
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 67
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 47
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 98
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 57
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 56
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 120
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 106.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 87
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 74
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 65
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 45
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Arithmetic operation resulted in an overflow.
+   at CortexBots.Mission.initializeBotArray() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 96
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 55
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 127
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 113.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 94
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 81
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 45
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Value was either too large or too small for a UInt32.
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 127
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 113.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 94
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 81
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 45
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Value was either too large or too small for a UInt32.
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 127
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 113.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.Exception: The specified number of bots is greater than allowed by the area of the grid.
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 61
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 94
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 81
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 45
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Value was either too large or too small for a UInt32.
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.Exception: The specified number of bots is greater than allowed by the area of the grid.
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 61
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 94
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.Exception: The specified number of bots is greater than allowed by the area of the grid.
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 61
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Robot 2 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 3 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 not deployed: Coords are out of bounds or collide with a previously activated robot. Continuing to next bot, if applicable.
+
+Robot 4 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CortexBots.Mission.activateRobot(Robot curBot) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 127
+   at CortexBots.Mission.execute() in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 113.
+
+
+NEW MISSION STARTED    
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 1 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 2 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+Robot 3 movement step ignored: Results in collision or go out of bounds. Continuing to next step, if applicable.
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 4. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.Exception: The specified number of bots is greater than allowed by the area of the grid.
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 61
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: There are too few lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 94
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 5. System.Exception: Too many lines of input data for the specified number of robots.
+
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 81
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 3. System.Exception: Robot start position or movement instructions are not formatted correctly.
+
+   at CortexBots.Robot.newInstructions(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Robot.cs:line 39
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 72
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 1. System.Exception: Failed to setCoordinatesFromString(): Upper right coordinates must be positive values in the format: #, # (e.g. "3, 7").
+
+   at CortexBots.GridSpace.setCoordinatesFromString(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\GridSpace.cs:line 29
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 45
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.OverflowException: Value was either too large or too small for a UInt32.
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+
+Validation Error: Invalid input data at Line 2. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToUInt32(String value)
+   at CortexBots.Mission.processInstructionSet(String input) in C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\CortexBots\Mission.cs:line 54
+
+
+NEW MISSION STARTED    
+

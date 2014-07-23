@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\Tests\bin\Release\Tests.dll" total="39" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-07-02" time="16:09:06">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5477" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="CBX0159" user="tadams" user-domain="ELECTROBUSINESS" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\Tests\bin\Release\Tests.dll" executed="True" result="Success" success="True" time="0.572" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.558" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="GridSpaceTest" executed="True" result="Success" success="True" time="0.294" asserts="0">
+            <results>
+              <test-case name="Tests.GridSpaceTest.calcsMaxBots" executed="True" result="Success" success="True" time="0.173" asserts="2" />
+              <test-case name="Tests.GridSpaceTest.canSetupValidGrid" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+              <test-case name="Tests.GridSpaceTest.detectsBoundaryCheckAtCenter" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+              <test-case name="Tests.GridSpaceTest.detectsBoundaryCheckInBounds" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+              <test-case name="Tests.GridSpaceTest.detectsBoundaryCheckOfBounds" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+              <test-case name="Tests.GridSpaceTest.rejectsGridSetupWithZeroDimensions" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+              <test-case name="Tests.GridSpaceTest.rejectsInvalidGridSetupOnX" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="Tests.GridSpaceTest.rejectsInvalidGridSetupOnY" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MissionTest" executed="True" result="Success" success="True" time="0.179" asserts="0">
+            <results>
+              <test-case name="Tests.MissionTest.canInitialize" executed="True" result="Success" success="True" time="0.013" asserts="7" />
+              <test-case name="Tests.MissionTest.deploysBot" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+              <test-case name="Tests.MissionTest.detectsOutOfBoundsDeployment" executed="True" result="Success" success="True" time="0.010" asserts="3" />
+              <test-case name="Tests.MissionTest.handlesBotCollision" executed="True" result="Success" success="True" time="0.007" asserts="3" />
+              <test-case name="Tests.MissionTest.inputProcessorAcceptsGoodInput" executed="True" result="Success" success="True" time="0.002" asserts="8" />
+              <test-case name="Tests.MissionTest.inputProcessorAcceptsGoodInputWithNoDirections1" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.MissionTest.inputProcessorAcceptsGoodInputWithNoDirections2" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadBotDirectionsInput" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadBotQuantity" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadBotQuantityIsExcessive" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadBotQuantityIsHighInput" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadBotQuantityIsLowInput" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadBotStartPositionInput" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadGridInput" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadNegativeBotQuantity" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="Tests.MissionTest.inputProcessorRejectsBadNoBotQuantity" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+              <test-case name="Tests.MissionTest.performsBasicMovement" executed="True" result="Success" success="True" time="0.002" asserts="12" />
+              <test-case name="Tests.MissionTest.reportTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="RobotTest" executed="True" result="Success" success="True" time="0.069" asserts="0">
+            <results>
+              <test-case name="Tests.RobotTest.acceptsGoodDirections" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Tests.RobotTest.acceptsGoodStartPosition1" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.RobotTest.acceptsGoodStartPosition2" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.RobotTest.acceptsGoodStartPosition3" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.RobotTest.acceptsGoodStartPosition4" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.RobotTest.acceptsGoodStartPosition5" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.RobotTest.acceptsGoodStartPosition6" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="Tests.RobotTest.acceptsNoDirections" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Tests.RobotTest.canInitialize" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+              <test-case name="Tests.RobotTest.rejectsBadDirections" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="Tests.RobotTest.rejectsBadStartPosition1" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="Tests.RobotTest.rejectsBadStartPosition2" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="Tests.RobotTest.rejectsBadStartPosition3" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

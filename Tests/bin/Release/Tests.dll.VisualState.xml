@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1042]C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\Tests\bin\Release\Tests.dll</TopNode>
+  <SelectedNode>[0-1043]Tests</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1042]C:\Users\tadams\Documents\Visual Studio 2010\Projects\CortexBots\Tests\bin\Release\Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1043]Tests" Expanded="true" />
+    <Node UniqueName="[0-1019]Tests.GridSpaceTest" Expanded="true" />
+    <Node UniqueName="[0-1000]Tests.MissionTest" Expanded="true" />
+    <Node UniqueName="[0-1028]Tests.RobotTest" Expanded="true" />
+  </Nodes>
+</VisualState>

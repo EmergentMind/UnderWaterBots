@@ -1,0 +1,9 @@
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\bin\Debug\UnderWaterBots.exe.config
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\bin\Debug\UnderWaterBots.exe.manifest
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\bin\Debug\UnderWaterBots.application
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\bin\Debug\UnderWaterBots.exe
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\bin\Debug\UnderWaterBots.pdb
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\obj\x86\Debug\UnderWaterBots.exe.manifest
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\obj\x86\Debug\UnderWaterBots.application
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\obj\x86\Debug\UnderWaterBots.exe
+C:\Users\tadams\Documents\Visual Studio 2010\Projects\UnderWaterBots\UnderWaterBots\obj\x86\Debug\UnderWaterBots.pdb

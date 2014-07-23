@@ -1,6 +1,6 @@
 UnderWaterBots
 ==============
-The solution to a coding problem for a job application.
+My solution to a coding problem for a job application.
 
 My first time using:
  - C#
